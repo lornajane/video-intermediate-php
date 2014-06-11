@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "../lib"
+        }
+    ],
+    "require": {
+        "my-app/library": "dev-master"
+    }
+}

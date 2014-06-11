@@ -1,0 +1,27 @@
+[
+    {
+        "name": "my-app/library",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "../lib",
+            "reference": "fed58810ed3a156504016a4f316a838845081b85"
+        },
+        "require": {
+            "php": "~5.4"
+        },
+        "time": "2014-06-05 17:44:17",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "MyApp\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "description": "Fabulous example library"
+    }
+]
